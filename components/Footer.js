@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer
-      className=" font-neohel relative overflow-x-auto"
+      className="font-neohel relative overflow-x-auto"
       style={{ backgroundColor: "#272D2D", color: "#F6F8FF" }}
     >
       <div className="flex gap-20">
@@ -112,7 +112,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="absolute right-0 bottom-0 md:mr-20 mr-4">
+      <div className="md:absolute md:p-0 p-5 md:right-0 md:left-auto left-0 bottom-0  md:mr-20 ">
         <p> &copy; Copyright 2021, Ευθυμίου</p>
         <p className="text-xs">Developed by Anargyros Stylidis</p>
       </div>
