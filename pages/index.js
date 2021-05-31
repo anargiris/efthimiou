@@ -18,6 +18,10 @@ export default function Home() {
           content="width=device-width,initial-scale=1.0"
         ></meta>
         <meta
+          name="google-site-verification"
+          content="urJ3emJOxOwYJiDZAeEguHShYRqdbUVrJXwxIfp2r1k"
+        />
+        <meta
           name="description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
           την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα κατόπιν παραγγελίας."
