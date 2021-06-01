@@ -11,7 +11,8 @@ export default function Home() {
       <Head>
         <title>Ξυλεία Καστανιάς Ευθυμίου</title>
         <meta property="og:title" content="Ξυλεία Καστανιάς | Ευθυμίου" />
-        <link rel="canonical" href="http://ksiliaefthimiou.gr/" />
+        <meta property="title" content="Ξυλεία Καστανιάς | Ευθυμίου" />
+        <link rel="canonical" href="https://ksiliaefthimiou.gr/" />
         <meta property="og:type" content="website" />
         <meta
           name="viewport"
