@@ -39,15 +39,15 @@ export default function Home() {
       <Navbar />
       <header className="w-full h-screen relative bg-cover hero-image font-neohel">
         <div className="absolute w-full h-full top-0 left-0 bg-black bg-opacity-40">
-          <div className="md:px-20 px-10 md:py-40 py-20 text-white">
+          <div className="md:px-20 px-10 md:py-40 py-20 ">
             <h1
-              className="text-6xl font-bold"
+              className="text-6xl font-bold text-white"
               style={{ textShadow: "1px 1px 10px black" }}
             >
               ΞΥΛΕΙΑ ΕΥΘΥΜΙΟΥ
             </h1>
             <motion.h2
-              className="text-3xl my-4"
+              className="text-3xl my-4 text-white"
               initial={{ opacity: 0 }}
               animate={{ opacity: 100 }}
               transition={{ ease: "easeIn", duration: 8 }}
