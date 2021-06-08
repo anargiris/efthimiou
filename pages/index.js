@@ -55,7 +55,7 @@ export default function Home() {
               Επεξεργασία ξύλου καστανίας, αποστολή σε όλη την Ελλάδα.
             </motion.h2>
             <Link href="/epikoinwnia">
-              <button className="bg-gray-100 text-lg shadow-xl mt-4 text-black p-4 font-black hover:bg-gray-800 hover:text-white transition duration-200">
+              <button className="bg-white text-lg shadow-xl mt-4 text-black p-4 font-black hover:bg-gray-800 hover:text-white transition duration-200">
                 ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ
               </button>
             </Link>
