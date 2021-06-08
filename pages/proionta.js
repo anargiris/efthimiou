@@ -35,17 +35,19 @@ const proionta = () => {
       </Head>
       <Navbar />
       <section
-        className="md:h-screen min-h-screen font-neohel"
+        className="min-h-screen font-neohel"
         style={{ backgroundColor: "#23CE6B" }}
       >
         <h2 className="text-center text-2xl font-bold py-2">ΚΟΛΩΝΕΣ</h2>
-        <div className="flex md:flex-row flex-col gap-5 flex-wrap mt-8 md:ml-3">
-          <Image
-            src="/pics/5.jpg"
-            height={400}
-            width={400}
-            alt="Photo of Product `ΚΟΛΩΝΕΣ` no.1"
-          />
+        <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
+          <div>
+            <Image
+              src="/pics/5.jpg"
+              height={400}
+              width={400}
+              alt="Photo of Product `ΚΟΛΩΝΕΣ` no.1"
+            />
+          </div>
           <Image
             src="/pics/kolones1.jpg"
             height={400}
@@ -61,12 +63,12 @@ const proionta = () => {
         </div>
       </section>
       <section
-        className="md:h-screen min-h-screen font-neohel"
+        className="min-h-screen font-neohel"
         style={{ backgroundColor: "#50514F" }}
       >
         <h2 className="text-center text-2xl font-bold py-2">ΠΛΑΚΑ</h2>
 
-        <div className="flex md:flex-row flex-col gap-5 flex-wrap mt-8 md:ml-3">
+        <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
           <Image
             src="/pics/2.jpg"
             height={400}
@@ -88,11 +90,11 @@ const proionta = () => {
         </div>
       </section>
       <section
-        className="md:h-screen min-h-screen font-neohel"
+        className="min-h-screen font-neohel"
         style={{ backgroundColor: "#F6F8FF" }}
       >
         <h2 className="text-center text-2xl font-bold py-2">ΤΑΒΛΑ (ΣΑΝΙΔΙΑ)</h2>
-        <div className="flex md:flex-row flex-col gap-5 flex-wrap mt-8 md:ml-3">
+        <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
           <Image
             src="/pics/1.jpg"
             height={400}

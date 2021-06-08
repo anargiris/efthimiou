@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import FadeInWhenVisible from "../utils/fadeIn";
@@ -12,11 +13,7 @@ export default function Home() {
         <title>Ξυλεία Καστανιάς Ευθυμίου</title>
         <meta property="og:title" content="Ξυλεία Καστανιάς - Ευθυμίου" />
         <link rel="canonical" href="https://ksiliaefthimiou.gr/" />
-        <link
-          rel="shortcut icon"
-          href="public/favicon.io"
-          type="image/x-icon"
-        />
+
         <meta property="og:type" content="website" />
         <meta
           name="viewport"
@@ -57,6 +54,11 @@ export default function Home() {
             >
               Επεξεργασία ξύλου καστανίας, αποστολή σε όλη την Ελλάδα.
             </motion.h2>
+            <Link href="/epikoinwnia">
+              <button className="bg-gray-100 text-lg shadow-xl mt-4 text-black p-4 font-black hover:bg-gray-800 hover:text-white transition duration-200">
+                ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ
+              </button>
+            </Link>
           </div>
         </div>
       </header>

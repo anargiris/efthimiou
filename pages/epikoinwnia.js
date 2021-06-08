@@ -30,11 +30,7 @@ const epikoinwnia = () => {
           name="viewport"
           content="width=device-width,initial-scale=1.0"
         ></meta>
-        <link
-          rel="shortcut icon"
-          href="public/favicon.io"
-          type="image/x-icon"
-        />
+
         <meta
           name="description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
