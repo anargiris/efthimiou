@@ -15,6 +15,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap"
             rel="stylesheet"
           />
+          <link href="/favicon.ico" rel="shortcut icon" />
+          <meta
+          name="google-site-verification"
+          content="urJ3emJOxOwYJiDZAeEguHShYRqdbUVrJXwxIfp2r1k"
+        />
         </Head>
         <body>
           <Main />

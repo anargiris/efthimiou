@@ -19,10 +19,7 @@ export default function Home() {
           name="viewport"
           content="width=device-width,initial-scale=1.0"
         ></meta>
-        <meta
-          name="google-site-verification"
-          content="urJ3emJOxOwYJiDZAeEguHShYRqdbUVrJXwxIfp2r1k"
-        />
+        
         <meta
           name="description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
@@ -44,7 +41,7 @@ export default function Home() {
               className="text-6xl font-bold text-white"
               style={{ textShadow: "1px 1px 10px black" }}
             >
-              ΞΥΛΕΙΑ ΕΥΘΥΜΙΟΥ
+              ΞΥΛΕΙΑ ΚΑΣΤΑΝΙΑΣ ΕΥΘΥΜΙΟΥ
             </h1>
             <motion.h2
               className="text-3xl my-4 text-white"
