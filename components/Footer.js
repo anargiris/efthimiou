@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="flex gap-20">
         <div className="p-5">
-          <h6 className="text-lg font-bold mb-2">Ξυλέια Ευθυμίου</h6>
+          <p className="text-lg font-bold mb-2">Ξυλέια Ευθυμίου</p>
           <div className="flex mb-1">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
               <path
@@ -101,16 +101,16 @@ const Footer = () => {
               </a>
             </Link>
             <Link href="https://www.instagram.com/ksiliaefthimiou/">
-              <div className="relative w-5 h-5">
-                <a className="cursor-pointer" target="_blank" rel="noreferrer">
+              <a className="cursor-pointer" target="_blank" rel="noreferrer">
+                <div className="relative w-5 h-5">
                   <Image
                     src="/icons/instagram.svg"
                     layout="fill"
                     alt="Instagram link picture."
                     className="absolute"
                   />
-                </a>
-              </div>
+                </div>
+              </a>
             </Link>
           </div>
         </div>
