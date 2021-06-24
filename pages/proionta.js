@@ -38,7 +38,7 @@ const proionta = () => {
         className="min-h-screen font-neohel"
         style={{ backgroundColor: "#23CE6B" }}
       >
-        <h2 className="text-center text-2xl font-bold py-2">
+        <h2 className="text-center text-2xl font-bold py-2 mt-1">
           ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ
         </h2>
         <p className="text-center font-mono">
