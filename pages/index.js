@@ -48,7 +48,7 @@ export default function Home() {
               animate={{ opacity: 100 }}
               transition={{ ease: "easeIn", duration: 8 }}
             >
-              Επεξεργασία ξύλου καστανίας, αποστολή σε όλη την Ελλάδα.
+              Επεξεργασία ξύλου καστανιάς, αποστολή σε όλη την Ελλάδα.
             </motion.h2>
             <Link href="/epikoinwnia">
               <button className="bg-white text-lg shadow-xl mt-4 text-black p-4 font-black hover:bg-gray-800 hover:text-white transition duration-200">
@@ -110,7 +110,7 @@ export default function Home() {
 
         <section className="pt-5 pb-10 border border-gray-300 shadow-md max-w-6xl mx-auto rounded-md mt-4 relative">
           <h3 className="text-3xl text-center font-bold font-neohel text-gray-900">
-            Τι είναι το ξύλο καστανιας;
+            Τι είναι το ξύλο καστανιάς;
           </h3>
           <p className="text-center px-10 md:px-20 mt-2 text-xl text-gray-800">
             Η καστανιά είναι ξύλο μεγάλης αντοχής και πανάρχαιο, καθώς υπάρχουν
