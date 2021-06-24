@@ -102,7 +102,12 @@ const Footer = () => {
             </Link>
             <Link href="https://www.instagram.com/ksiliaefthimiou/">
               <a className="cursor-pointer" target="_blank" rel="noreferrer">
-                <Image src="/icons/instagram.svg" width={25} height={25} />
+                <Image
+                  src="/icons/instagram.svg"
+                  width={25}
+                  height={25}
+                  alt="Instagram link picture."
+                />
               </a>
             </Link>
           </div>
