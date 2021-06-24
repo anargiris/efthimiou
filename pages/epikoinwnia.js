@@ -97,7 +97,7 @@ const epikoinwnia = () => {
               />
             </svg>
             <p className="text-2xl mt-1 hover:text-green-600 transition duration-200">
-              697 777 8689, 6978922242
+              6977778689, 6978922242
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-5">

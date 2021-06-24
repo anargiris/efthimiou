@@ -38,7 +38,13 @@ const proionta = () => {
         className="min-h-screen font-neohel"
         style={{ backgroundColor: "#23CE6B" }}
       >
-        <h2 className="text-center text-2xl font-bold py-2">ΚΟΛΩΝΕΣ</h2>
+        <h2 className="text-center text-2xl font-bold py-2">
+          ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ
+        </h2>
+        <p className="text-center font-mono">
+          Οι κολώνες καστανιάς χρησιμοποιούνται κυρίως για πέργολες. Οι
+          διαστάσεις τους ξεκινάνε από 8x8 και φτάνουν έως 20x20.
+        </p>
         <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
           <div>
             <Image
@@ -66,7 +72,11 @@ const proionta = () => {
         className="min-h-screen font-neohel"
         style={{ backgroundColor: "#50514F" }}
       >
-        <h2 className="text-center text-2xl font-bold py-2">ΠΛΑΚΑ</h2>
+        <h2 className="text-center text-2xl font-bold py-2">ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ</h2>
+        <p className="text-center font-mono">
+          Η κύρια χρήση της πλάκας καστανιάς είναι για κουφώματα και ιδιαίτερα
+          για τραπέζια λόγω της μεγάλης αντοχής της.
+        </p>
 
         <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
           <Image
@@ -93,7 +103,13 @@ const proionta = () => {
         className="min-h-screen font-neohel"
         style={{ backgroundColor: "#F6F8FF" }}
       >
-        <h2 className="text-center text-2xl font-bold py-2">ΤΑΒΛΑ (ΣΑΝΙΔΙΑ)</h2>
+        <h2 className="text-center text-2xl font-bold py-2">
+          ΤΑΒΛΑ (ΣΑΝΙΔΙΑ) ΚΑΣΤΑΝΙΑΣ
+        </h2>
+        <p className="text-center font-mono">
+          Τα σανίδια καστανιάς χρησιμοποιούνται κυρίως για πατώματα, οροφές,
+          πατώματα παραλίας και κουφώματα.
+        </p>
         <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
           <Image
             src="/pics/1.jpg"

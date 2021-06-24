@@ -16,10 +16,11 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link href="/favicon.ico" rel="shortcut icon" />
+          <meta name="theme-color" content="#272D2D" />
           <meta
-          name="google-site-verification"
-          content="urJ3emJOxOwYJiDZAeEguHShYRqdbUVrJXwxIfp2r1k"
-        />
+            name="google-site-verification"
+            content="urJ3emJOxOwYJiDZAeEguHShYRqdbUVrJXwxIfp2r1k"
+          />
         </Head>
         <body>
           <Main />

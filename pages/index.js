@@ -11,7 +11,6 @@ export default function Home() {
     <>
       <Head>
         <title>Ξυλεία Καστανιάς Ευθυμίου</title>
-        <meta property="og:title" content="Ξυλεία Καστανιάς - Ευθυμίου" />
         <link rel="canonical" href="https://ksiliaefthimiou.gr/" />
 
         <meta property="og:type" content="website" />
@@ -19,7 +18,7 @@ export default function Home() {
           name="viewport"
           content="width=device-width,initial-scale=1.0"
         ></meta>
-        
+
         <meta
           name="description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
@@ -69,6 +68,7 @@ export default function Home() {
               src="/bgs/outside.jpg"
               alt="outside of work station"
               layout="fill"
+              objectFit="cover"
               alt="Image of the main work station"
             />
           </div>
@@ -88,16 +88,18 @@ export default function Home() {
                   transform="translate(100 100)"
                 />
               </svg>
-              <h2 className="text-2xl text-center font-bold">Η ΙΣΤΟΡΙΑ ΜΑΣ</h2>
-              <p className="text-lg text-center mt-10">
+              <span className="text-2xl 2xl:text-5xl text-center font-bold">
+                Η ΙΣΤΟΡΙΑ ΜΑΣ
+              </span>
+              <p className="text-lg 2xl:text-3xl text-center mt-10">
                 Η επιχείρηση μας ιδρύθηκε το 1996 και μέχρι σήμερα επεξεργάζεται
                 την ξυλεία καστανιάς.
               </p>
-              <p className="text-lg text-center mt-5">
+              <p className="text-lg 2xl:text-3xl text-center mt-5">
                 Επεξεργαζόμαστε ξύλα που προέρχονται από το Άγιο Όρος και την
                 Βόρεια Χαλκιδική.
               </p>
-              <p className="text-lg text-center mt-5">
+              <p className="text-lg 2xl:text-3xl text-center mt-5">
                 Διαθέτουμε Πλάκες καστανιάς, Καστανιά σκεπής, κολόνες,
                 φουρούσια, πασσάλους στήριξης, σανίδες ραμποτέ, καδρόνια,
                 πέργκολες, μοναστηριακά τραπέζια και πατώματα.
@@ -106,13 +108,43 @@ export default function Home() {
           </FadeInWhenVisible>
         </section>
 
+        <section className="pt-5 pb-10 border border-gray-300 shadow-md max-w-6xl mx-auto rounded-md mt-4 relative">
+          <h3 className="text-3xl text-center font-bold font-neohel text-gray-900">
+            Τι είναι το ξύλο καστανιας;
+          </h3>
+          <p className="text-center px-20 mt-2 text-xl text-gray-800">
+            Η καστανιά είναι ξύλο μεγάλης αντοχής και πανάρχαιο, καθώς υπάρχουν
+            ευρήματά της από την εποχή του Χαλκού. Οι καστανιές είναι μεγάλα
+            δέντρα, το ύψος τους φτάνει έως και 35 μέτρα.
+          </p>
+          <p className="text-center px-20 mt-2 text-xl text-gray-800">
+            Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται και αποστέλλει πλάκες,
+            σανίδια (τάβλα) και κολώνες καστανιάς. Έχουμε πελάτες απο την
+            Θεσσαλονίκη και την Βέροια έως την Κρήτη. Για να επικοινωνήσετε μαζί
+            μας και να κάνετε παραγγελία κάντε click{" "}
+            <Link href="/epikoinwnia">
+              <span className="text-blue-400 cursor-pointer"> εδώ.</span>
+            </Link>
+          </p>
+          <span className="absolute bottom-0 left-0 text-xs text-gray-700">
+            Πληροφορίες από{" "}
+            <a
+              href="https://el.wikipedia.org/wiki/%CE%9A%CE%B1%CF%83%CF%84%CE%B1%CE%BD%CE%B9%CE%AC"
+              target="_blank"
+              rel="noreferrer"
+              className="underline"
+            >
+              wikipedia.
+            </a>
+          </span>
+        </section>
         <section
           className="min-h-screen mb-4"
           style={{ backgroundColor: "#F6F8FF" }}
         >
-          <h3 className="text-center font-bold text-2xl my-2 font-neohel">
+          <p className="text-center font-bold text-2xl my-2 font-neohel">
             Φωτογραφίες
-          </h3>
+          </p>
 
           <div className="flex flex-wrap md:gap-10 gap-5 mx-auto justify-center">
             <FadeInWhenVisible>
@@ -164,6 +196,12 @@ export default function Home() {
               />
             </FadeInWhenVisible>
           </div>
+        </section>
+        <section className="text-center 2xl:text-3xl mb-4">
+          Για πληροφορίες και τιμές επικοινωνήστε μαζί μας
+          <Link href="/epikoinwnia">
+            <span className="text-blue-400 cursor-pointer"> εδώ.</span>
+          </Link>
         </section>
       </main>
       <Footer />

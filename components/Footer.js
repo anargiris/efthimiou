@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -76,7 +77,7 @@ const Footer = () => {
 
         <div className="p-5">
           <h6 className="font-bold mb-2">Social Media:</h6>
-          <div className="flex">
+          <div className="flex gap-1">
             <Link
               href="https://www.facebook.com/%CE%9E%CF%85%CE%BB%CE%B5%CE%B9%CE%B1-%CE%9A%CE%B1%CF%83%CF%84%CE%B1%CE%BD%CE%B9%CE%B1%CF%82-726980901021504"
               rel="noreferrer"
@@ -97,6 +98,11 @@ const Footer = () => {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                 </svg>
+              </a>
+            </Link>
+            <Link href="https://www.instagram.com/ksiliaefthimiou/">
+              <a className="cursor-pointer" target="_blank" rel="noreferrer">
+                <Image src="/icons/instagram.svg" width={25} height={25} />
               </a>
             </Link>
           </div>
