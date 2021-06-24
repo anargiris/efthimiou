@@ -112,18 +112,18 @@ export default function Home() {
           <h3 className="text-3xl text-center font-bold font-neohel text-gray-900">
             Τι είναι το ξύλο καστανιας;
           </h3>
-          <p className="text-center px-20 mt-2 text-xl text-gray-800">
+          <p className="text-center px-10 md:px-20 mt-2 text-xl text-gray-800">
             Η καστανιά είναι ξύλο μεγάλης αντοχής και πανάρχαιο, καθώς υπάρχουν
             ευρήματά της από την εποχή του Χαλκού. Οι καστανιές είναι μεγάλα
             δέντρα, το ύψος τους φτάνει έως και 35 μέτρα.
           </p>
-          <p className="text-center px-20 mt-2 text-xl text-gray-800">
+          <p className="text-center px-10 md:px-20 mt-2 text-xl text-gray-800">
             Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται και αποστέλλει πλάκες,
             σανίδια (τάβλα) και κολώνες καστανιάς. Έχουμε πελάτες απο την
             Θεσσαλονίκη και την Βέροια έως την Κρήτη. Για να επικοινωνήσετε μαζί
             μας και να κάνετε παραγγελία κάντε click{" "}
             <Link href="/epikoinwnia">
-              <span className="text-blue-400 cursor-pointer"> εδώ.</span>
+              <span className="text-blue-800 cursor-pointer"> εδώ.</span>
             </Link>
           </p>
           <span className="absolute bottom-0 left-0 text-xs text-gray-700">
@@ -200,7 +200,7 @@ export default function Home() {
         <section className="text-center 2xl:text-3xl mb-4">
           Για πληροφορίες και τιμές επικοινωνήστε μαζί μας
           <Link href="/epikoinwnia">
-            <span className="text-blue-400 cursor-pointer"> εδώ.</span>
+            <span className="text-blue-700 cursor-pointer"> εδώ.</span>
           </Link>
         </section>
       </main>

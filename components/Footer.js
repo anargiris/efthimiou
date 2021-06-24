@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
 
         <div className="p-5">
-          <h6 className="font-bold mb-2">Social Media:</h6>
+          <p className="font-bold mb-2">Social Media:</p>
           <div className="flex gap-1">
             <Link
               href="https://www.facebook.com/%CE%9E%CF%85%CE%BB%CE%B5%CE%B9%CE%B1-%CE%9A%CE%B1%CF%83%CF%84%CE%B1%CE%BD%CE%B9%CE%B1%CF%82-726980901021504"
@@ -101,14 +101,16 @@ const Footer = () => {
               </a>
             </Link>
             <Link href="https://www.instagram.com/ksiliaefthimiou/">
-              <a className="cursor-pointer" target="_blank" rel="noreferrer">
-                <Image
-                  src="/icons/instagram.svg"
-                  width={25}
-                  height={25}
-                  alt="Instagram link picture."
-                />
-              </a>
+              <div className="relative w-5 h-5">
+                <a className="cursor-pointer" target="_blank" rel="noreferrer">
+                  <Image
+                    src="/icons/instagram.svg"
+                    layout="fill"
+                    alt="Instagram link picture."
+                    className="absolute"
+                  />
+                </a>
+              </div>
             </Link>
           </div>
         </div>
