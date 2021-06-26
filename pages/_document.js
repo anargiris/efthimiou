@@ -15,7 +15,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic&display=swap"
             rel="stylesheet"
           />
-          <link href="/favicon.ico" rel="shortcut icon" />
+          <link rel="icon" href="/favicon.ico" />
           <meta name="theme-color" content="#272D2D" />
           <meta
             name="google-site-verification"
