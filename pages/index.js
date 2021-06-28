@@ -22,12 +22,12 @@ export default function Home() {
         <meta
           name="description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
-          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα κατόπιν παραγγελίας."
+          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα. Ξύλα καστανιάς."
         ></meta>
         <meta
           property="og:description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
-          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα κατόπιν παραγγελίας."
+          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα. Ξύλα καστανιάς."
         />
         <meta property="og:url" content="ksiliaefthimiou.gr"></meta>
         <meta name="robots" content="index, follow" />
@@ -91,10 +91,10 @@ export default function Home() {
               <span className="text-2xl 2xl:text-5xl text-center font-bold">
                 Η ΙΣΤΟΡΙΑ ΜΑΣ
               </span>
-              <p className="text-lg 2xl:text-3xl text-center mt-10">
+              <h3 className="text-lg 2xl:text-3xl text-center mt-10">
                 Η επιχείρηση μας ιδρύθηκε το 1996 και μέχρι σήμερα επεξεργάζεται
                 την ξυλεία καστανιάς.
-              </p>
+              </h3>
               <p className="text-lg 2xl:text-3xl text-center mt-5">
                 Επεξεργαζόμαστε ξύλα που προέρχονται από το Άγιο Όρος και την
                 Βόρεια Χαλκιδική.
@@ -109,9 +109,9 @@ export default function Home() {
         </section>
 
         <section className="pt-5 pb-10 border border-gray-300 shadow-md max-w-6xl mx-auto rounded-md mt-4 relative">
-          <h3 className="text-3xl text-center font-bold font-neohel text-gray-900">
+          <h4 className="text-3xl text-center font-bold font-neohel text-gray-900">
             Τι είναι το ξύλο καστανιάς;
-          </h3>
+          </h4>
           <p className="text-center px-10 md:px-20 mt-2 text-xl text-gray-800">
             Η καστανιά είναι ξύλο μεγάλης αντοχής και πανάρχαιο, καθώς υπάρχουν
             ευρήματά της από την εποχή του Χαλκού. Οι καστανιές είναι μεγάλα
@@ -152,7 +152,7 @@ export default function Home() {
                 src="/pics/1.jpg"
                 width={350}
                 height={350}
-                alt="Photographs from work no.1"
+                alt="Ξυλεία καστανιάς φωτογραφία no.1"
               />
             </FadeInWhenVisible>
             <FadeInWhenVisible>
@@ -160,7 +160,7 @@ export default function Home() {
                 src="/pics/2.jpg"
                 width={350}
                 height={350}
-                alt="Photographs from work no.2"
+                alt="Ξυλεία καστανιάς φωτογραφία no.2"
               />
             </FadeInWhenVisible>
             <FadeInWhenVisible>
@@ -168,7 +168,7 @@ export default function Home() {
                 src="/pics/3.jpg"
                 width={350}
                 height={350}
-                alt="Photographs from work no.3"
+                alt="Ξυλεία καστανιάς φωτογραφία no.3"
               />
             </FadeInWhenVisible>
             <FadeInWhenVisible>
@@ -176,7 +176,7 @@ export default function Home() {
                 src="/pics/4.jpg"
                 width={350}
                 height={350}
-                alt="Photographs from work no.4"
+                alt="Ξυλεία καστανιάς φωτογραφία no.4"
               />
             </FadeInWhenVisible>
             <FadeInWhenVisible>
@@ -184,7 +184,7 @@ export default function Home() {
                 src="/pics/5.jpg"
                 width={350}
                 height={350}
-                alt="Photographs from work no.5"
+                alt="Ξυλεία καστανιάς φωτογραφία no.5"
               />
             </FadeInWhenVisible>
             <FadeInWhenVisible>
@@ -192,7 +192,7 @@ export default function Home() {
                 src="/pics/6.jpg"
                 width={350}
                 height={350}
-                alt="Photographs from work no.6"
+                alt="Ξυλεία καστανιάς φωτογραφία no.6"
               />
             </FadeInWhenVisible>
           </div>

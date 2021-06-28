@@ -22,13 +22,11 @@ const proionta = () => {
         ></meta>
         <meta
           name="description"
-          content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
-          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα κατόπιν παραγγελίας."
+          content="Φωτογραφίες προιόντων απο την ξυλεία καστανιάς Ευθυμίου. Ξύλα σε Πλάκα, κολώνες, τάβλα καστανιάς. Από το Άγιο Όρος."
         />
         <meta
           property="og:description"
-          content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
-          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα κατόπιν παραγγελίας."
+          content="Φωτογραφίες προιόντων απο την ξυλεία καστανιάς Ευθυμίου. Ξύλα σε Πλάκα, κολώνες, τάβλα καστανιάς. Από το Άγιο Όρος."
         />
         <meta property="og:url" content="ksiliaefthimiou.gr/proionta"></meta>
         <meta name="robots" content="index, follow" />
@@ -51,20 +49,20 @@ const proionta = () => {
               src="/pics/5.jpg"
               height={400}
               width={400}
-              alt="Photo of Product `ΚΟΛΩΝΕΣ` no.1"
+              alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.1"
             />
           </div>
           <Image
             src="/pics/kolones1.jpg"
             height={400}
             width={400}
-            alt="Photo of Product `ΚΟΛΩΝΕΣ` no.2"
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.2"
           />
           <Image
             src="/pics/kolones2.jpg"
             height={400}
             width={400}
-            alt="Photo of Product `ΚΟΛΩΝΕΣ` no.3"
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.3"
           />
         </div>
       </section>
@@ -83,19 +81,19 @@ const proionta = () => {
             src="/pics/2.jpg"
             height={400}
             width={400}
-            alt="Photo of product `ΠΛΑΚΑ` no.1"
+            alt="Photo of product `ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ` no.1"
           />
           <Image
             src="/pics/plaka1.jpg"
             height={400}
             width={400}
-            alt="Photo of product `ΠΛΑΚΑ` no.2"
+            alt="Photo of product `ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ` no.2"
           />
           <Image
             src="/pics/plaka2.jpg"
             height={400}
             width={400}
-            alt="Photo of product `ΠΛΑΚΑ` no.3"
+            alt="Photo of product `ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ` no.3"
           />
         </div>
       </section>
@@ -115,19 +113,19 @@ const proionta = () => {
             src="/pics/1.jpg"
             height={400}
             width={400}
-            alt="photo of product `ΤΑΒΛΑ` no.1"
+            alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.1"
           />
           <Image
             src="/pics/tavla1.jpg"
             height={400}
             width={400}
-            alt="photo of product `ΤΑΒΛΑ` no.2"
+            alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.2"
           />
           <Image
             src="/pics/tavla2.jpg"
             height={400}
             width={400}
-            alt="photo of product `ΤΑΒΛΑ` no.3"
+            alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.3"
           />
         </div>
       </section>
