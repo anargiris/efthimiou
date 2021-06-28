@@ -21,6 +21,22 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="urJ3emJOxOwYJiDZAeEguHShYRqdbUVrJXwxIfp2r1k"
           />
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.ANALYTICS_ID}`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${process.env.ANALYTICS_ID}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
         </Head>
         <body>
           <Main />
