@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Link from "next/link";
 import Footer from "../components/Footer";
 
 const map = () => {
@@ -127,6 +128,18 @@ const epikoinwnia = () => {
         {map()}
       </div>
 
+      <section className="p-20">
+        <p>
+          Για οικοδομικές κατασκευές κοιτάξτε{" "}
+          <Link href="https://dimitrakoudas.gr">
+            <a rel="noreferrer">
+              {" "}
+              <span className="font-bold">εδώ</span>{" "}
+            </a>
+          </Link>
+          .
+        </p>
+      </section>
       <Footer />
     </>
   );
