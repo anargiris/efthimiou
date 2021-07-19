@@ -14,7 +14,7 @@ const proionta = () => {
           property="og:title"
           content="Ξυλεία Καστανιάς | Ευθυμίου | Προιόντα"
         />
-        <link rel="canonical" href="http://ksiliaefthimiou.gr/proionta" />
+        <link rel="canonical" href="https://ksiliaefthimiou.gr/proionta" />
         <meta property="og:type" content="website" />
         <meta
           property="og:site_name"
@@ -36,7 +36,10 @@ const proionta = () => {
           property="og:description"
           content="Φωτογραφίες προιόντων απο την ξυλεία καστανιάς Ευθυμίου. Ξύλα σε Πλάκα, κολώνες, τάβλα καστανιάς. Από το Άγιο Όρος."
         />
-        <meta property="og:url" content="ksiliaefthimiou.gr/proionta"></meta>
+        <meta
+          property="og:url"
+          content="https://ksiliaefthimiou.gr/proionta"
+        ></meta>
         <meta name="robots" content="index, follow" />
       </Head>
       <Navbar />

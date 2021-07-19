@@ -6,11 +6,13 @@ import { motion } from "framer-motion";
 import FadeInWhenVisible from "../utils/fadeIn";
 import ScrollToTop from "../components/Scroller";
 import Footer from "../components/Footer";
+import OpacityFade from "../utils/opacityFade";
+
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Ξυλεία Καστανιάς Ευθυμίου - Χαλκιδική</title>
+        <title>Ξυλεία Καστανιάς Ευθυμίου</title>
         <link rel="canonical" href="https://ksiliaefthimiou.gr/" />
 
         <meta property="og:type" content="website" />
@@ -37,7 +39,7 @@ export default function Home() {
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
           την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα."
         />
-        <meta property="og:url" content="ksiliaefthimiou.gr"></meta>
+        <meta property="og:url" content="https://ksiliaefthimiou.gr"></meta>
         <meta name="robots" content="index, follow" />
       </Head>
       <Navbar />
@@ -113,7 +115,7 @@ export default function Home() {
                 Η ΙΣΤΟΡΙΑ ΜΑΣ
               </span>
               <p className="text-lg 2xl:text-3xl text-center mt-10">
-                Η επιχείρηση μας ιδρύθηκε το 1996 και μέχρι σήμερα επεξεργάζεται
+                Η επιχείρηση μας ιδρύθηκε το 1995 και μέχρι σήμερα επεξεργάζεται
                 την ξυλεία καστανιάς.
               </p>
               <p className="text-lg 2xl:text-3xl text-center mt-5">
@@ -225,6 +227,40 @@ export default function Home() {
           </Link>
         </section>
       </main>
+      <section className="xl:min-h-full min-h-screen relative pb-2">
+        <Image src="/bgs/section-bg.jpg" layout="fill" alt="ξύλο background" />
+        <div className="relative z-10 py-4">
+          <h4 className="text-5xl font-bold text-gray-900 font-neohel text-center">
+            Ξυλεία καστανιάς απο την Χαλκιδική.
+          </h4>
+          <OpacityFade>
+            <p className="text-center font-neohel font-bold text-gray-800 mt-10 text-2xl">
+              Εδώ και δεκαετίες η οικογενειακή επιχείρησή μας επεξεργαζεται ξύλα
+              καστανιάς απο το γειτονικό Άγιο Όρος.
+            </p>
+          </OpacityFade>
+        </div>
+        <div className="bg-gray-900 mt-10 text-yellow-200 bg-opacity-90 text-center p-4 relative z-10">
+          <p className="text-2xl font-neohel font-bold">
+            Υποχρέωση μας είναι η άριστη εξυπηρέτηση των πελατών μας!
+          </p>
+        </div>
+        <div className="relative z-10">
+          <p className="text-black text-center font-neohel text-lg mt-12 font-bold">
+            Τα ξύλα καστανιάς διακρίνονται για τη μεγάλη αντοχή και διάρκεια
+            ζωής τους.
+            <br />
+            Φτιάχνουμε κολώνες, τάβλα και πλάκες καστανιάς.
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Link href="/epikoinwnia">
+            <button className="bg-gray-100 border-2 mt-10 border-gray-600 text-lg shadow-xl text-black p-4 font-black hover:bg-gray-800 hover:text-white transition duration-200 relative z-10">
+              ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ
+            </button>
+          </Link>
+        </div>
+      </section>
       <Footer />
       <ScrollToTop />
     </>

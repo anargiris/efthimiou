@@ -78,10 +78,7 @@ const Footer = () => {
         <div className="p-5">
           <p className="font-bold mb-2">Social Media:</p>
           <div className="flex gap-1">
-            <Link
-              href="https://www.facebook.com/%CE%9E%CF%85%CE%BB%CE%B5%CE%B9%CE%B1-%CE%9A%CE%B1%CF%83%CF%84%CE%B1%CE%BD%CE%B9%CE%B1%CF%82-726980901021504"
-              rel="noreferrer"
-            >
+            <Link href="https://www.facebook.com/%CE%9E%CF%85%CE%BB%CE%B5%CE%B9%CE%B1-%CE%9A%CE%B1%CF%83%CF%84%CE%B1%CE%BD%CE%B9%CE%B1%CF%82-726980901021504">
               <a className="cursor-pointer" target="_blank" rel="noreferrer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

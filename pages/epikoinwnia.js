@@ -25,7 +25,7 @@ const epikoinwnia = () => {
           property="og:title"
           content="Ξυλεία Καστανιάς | Ευθυμίου | Στοιχεία Επικοινωνίας"
         />
-        <link rel="canonical" href="http://ksiliaefthimiou.gr/epikoinwnia" />
+        <link rel="canonical" href="https://ksiliaefthimiou.gr/epikoinwnia" />
         <meta property="og:type" content="website" />
         <meta
           name="viewport"
@@ -40,7 +40,10 @@ const epikoinwnia = () => {
           property="og:description"
           content="Στοιχεία επικοiνωνίας για συνεργασία με την ξυλεία καστανιάς Ευθυμίου.Ιερισσός Χαλκιδικής. Ξύλα καστανιάς κατόπιν παραγγελίας."
         />
-        <meta property="og:url" content="ksiliaefthimiou.gr/epikoinwnia"></meta>
+        <meta
+          property="og:url"
+          content="https://ksiliaefthimiou.gr/epikoinwnia"
+        ></meta>
         <meta name="robots" content="index, follow" />
         <meta
           property="og:site_name"
