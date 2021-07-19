@@ -40,7 +40,10 @@ const proionta = () => {
         <meta name="robots" content="index, follow" />
       </Head>
       <Navbar />
-      <header className="p-5 bg-gradient-to-b from-yellow-50 to-yellow-100 border-b-8 border-black">
+      <header
+        className="p-5 text-gray-100 border-b-8 border-black"
+        style={{ backgroundColor: "#323232" }}
+      >
         <h1 className="font-neohel text-center font-bold text-3xl">
           ΠΡΟΙΟΝΤΑ ΞΥΛΕΙΑΣ ΚΑΣΤΑΝΙΑΣ
         </h1>
