@@ -55,7 +55,10 @@ const proionta = () => {
           Παρακάτω μπορείτε να δείτε φωτογραφίες από τα προιόντα μας.
         </p>
       </header>
-      <section className="min-h-screen font-neohel py-2">
+      <section
+        className="min-h-screen font-neohel py-2"
+        style={{ backgroundColor: "#F6F8FF" }}
+      >
         <h3 className="text-center underline text-2xl font-bold py-2">
           ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ
         </h3>
