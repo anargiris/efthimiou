@@ -17,6 +17,14 @@ const proionta = () => {
         <link rel="canonical" href="http://ksiliaefthimiou.gr/proionta" />
         <meta property="og:type" content="website" />
         <meta
+          property="og:site_name"
+          content="Ξυλεία Καστανιάς Ευθυμίου - Χαλκιδική"
+        />
+        <meta
+          property="og:image"
+          content="https://ksiliaefthimiou.gr/bgs/outside.jpg"
+        />
+        <meta
           name="viewport"
           content="width=device-width,initial-scale=1.0"
         ></meta>
@@ -32,15 +40,24 @@ const proionta = () => {
         <meta name="robots" content="index, follow" />
       </Head>
       <Navbar />
-      <section
-        className="min-h-screen font-neohel"
-        style={{ backgroundColor: "#23CE6B" }}
-      >
-        <h2 className="text-center text-2xl font-bold py-2">
-          ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ
+      <header className="p-5 bg-gradient-to-b from-yellow-50 to-yellow-100 border-b-8 border-black">
+        <h1 className="font-neohel text-center font-bold text-3xl">
+          ΠΡΟΙΟΝΤΑ ΞΥΛΕΙΑΣ ΚΑΣΤΑΝΙΑΣ
+        </h1>
+        <h2 className="text-center mt-4 text-lg">
+          Επεξεργαζόμαστε ξύλα από το Άγιο Όρος και την Βόρεια Χαλκιδική.
+          Φτιάχνουμε κολώνες καστανιάς, τάβλα καστανιάς και πλάκες καστανιάς.
         </h2>
+        <p className="mt-4 text-center">
+          Παρακάτω μπορείτε να δείτε φωτογραφίες από τα προιόντα μας.
+        </p>
+      </header>
+      <section className="min-h-screen font-neohel py-2">
+        <h3 className="text-center underline text-2xl font-bold py-2">
+          ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ
+        </h3>
         <p className="text-center font-mono">
-          Οι κολώνες καστανιάς χρησιμοποιούνται κυρίως για πέργολες. Οι
+          Οι κολώνες καστανιάς χρησιμοποιούνται κυρίως για πέργκολες. Οι
           διαστάσεις τους ξεκινάνε από 8x8 και φτάνουν έως 20x20.
         </p>
         <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
@@ -67,10 +84,12 @@ const proionta = () => {
         </div>
       </section>
       <section
-        className="min-h-screen font-neohel"
+        className="min-h-screen font-neohel py-2"
         style={{ backgroundColor: "#50514F" }}
       >
-        <h2 className="text-center text-2xl font-bold py-2">ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ</h2>
+        <h3 className="text-center text-2xl underline font-bold py-2">
+          ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ
+        </h3>
         <p className="text-center font-mono">
           Η κύρια χρήση της πλάκας καστανιάς είναι για κουφώματα και ιδιαίτερα
           για τραπέζια λόγω της μεγάλης αντοχής της.
@@ -98,12 +117,12 @@ const proionta = () => {
         </div>
       </section>
       <section
-        className="min-h-screen font-neohel"
+        className="min-h-screen font-neohel py-2"
         style={{ backgroundColor: "#F6F8FF" }}
       >
-        <h2 className="text-center text-2xl font-bold py-2">
+        <h3 className="text-center text-2xl underline font-bold py-2">
           ΤΑΒΛΑ (ΣΑΝΙΔΙΑ) ΚΑΣΤΑΝΙΑΣ
-        </h2>
+        </h3>
         <p className="text-center font-mono">
           Τα σανίδια καστανιάς χρησιμοποιούνται κυρίως για πατώματα, οροφές,
           πατώματα παραλίας και κουφώματα.

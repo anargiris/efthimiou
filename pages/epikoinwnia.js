@@ -42,17 +42,25 @@ const epikoinwnia = () => {
         />
         <meta property="og:url" content="ksiliaefthimiou.gr/epikoinwnia"></meta>
         <meta name="robots" content="index, follow" />
+        <meta
+          property="og:site_name"
+          content="Ξυλεία Καστανιάς Ευθυμίου - Χαλκιδική"
+        />
+        <meta
+          property="og:image"
+          content="https://ksiliaefthimiou.gr/bgs/outside.jpg"
+        />
       </Head>
       <Navbar />
       <section
-        className="mb-14 font-neohel py-4"
+        className="pb-14 font-neohel py-4"
         style={{ backgroundColor: "#F6F8FF", color: "#272D2D" }}
       >
         <h1 className="text-center text-3xl font-bold">
-          Στοιχεία επικοiνωνίας ξυλεία Ευθυμίου
+          Στοιχεία επικοινωνίας ξυλεία Ευθυμίου
         </h1>
         <h2 className="text-center text-2xl mt-4 ">
-          Είμαστε διαθέσιμοι Δευτερα-Παρασκευη απο τις 8:00 έως τις 15:00 <br />
+          Είμαστε διαθέσιμοι Δευτέρα-Παρασκευή από τις 8:00 έως τις 15:00 <br />
           και Σάββατο 8:00 - 13:00
         </h2>
         <div className="py-4 border border-gray-800 mt-10 shadow-xl max-w-2xl mx-auto rounded-2xl">
@@ -127,8 +135,17 @@ const epikoinwnia = () => {
       <div className="w-full" style={{ backgroundColor: "#F6F8FF" }}>
         {map()}
       </div>
-
-      <section className="p-20">
+      <section className="bg-gray-900 text-gray-100 p-4">
+        <h3 className="text-center text-2xl mb-4">
+          Ξυλεία καστανιάς Ευθυμίου - Ιερισσός Χαλκιδικής
+        </h3>
+        <p className="text-center px-10">
+          Ξύλα καστανιάς Αγίου Όρους και Βόρειας Χαλκιδικής.
+          <br />
+          Αποστολή σε Θεσσαλονίκη, Βέροια, Κατερίνη, Αθήνα και υπόλοιπη Ελλάδα.
+        </p>
+      </section>
+      <section className="p-5">
         <p>
           Για οικοδομικές κατασκευές κοιτάξτε{" "}
           <Link href="https://dimitrakoudas.gr">

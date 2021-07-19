@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ξυλεία Καστανιάς Ευθυμίου</title>
+        <title>Ξυλεία Καστανιάς Ευθυμίου - Χαλκιδική</title>
         <link rel="canonical" href="https://ksiliaefthimiou.gr/" />
 
         <meta property="og:type" content="website" />
@@ -22,12 +22,20 @@ export default function Home() {
         <meta
           name="description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
-          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα. Ξύλα καστανιάς."
+          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα."
         ></meta>
+        <meta
+          property="og:site_name"
+          content="Ξυλεία Καστανιάς Ευθυμίου - Χαλκιδική"
+        />
+        <meta
+          property="og:image"
+          content="https://ksiliaefthimiou.gr/bgs/outside.jpg"
+        />
         <meta
           property="og:description"
           content="Η ξυλεία καστανιάς Ευθυμίου επεξεργάζεται ξύλα που προέρχονται από
-          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα. Ξύλα καστανιάς."
+          την Βόρεια Χαλκιδική και το Άγιο Όρος και τα αποστέλλει σε όλη την Ελλάδα."
         />
         <meta property="og:url" content="ksiliaefthimiou.gr"></meta>
         <meta name="robots" content="index, follow" />
@@ -37,22 +45,35 @@ export default function Home() {
         <div className="absolute w-full h-full top-0 left-0 bg-black bg-opacity-40">
           <div className="md:px-20 px-10 md:py-40 py-20 ">
             <h1
-              className="text-6xl font-bold text-white"
+              className="md:text-6xl text-4xl font-bold text-white"
               style={{ textShadow: "1px 1px 10px black" }}
             >
               ΞΥΛΕΙΑ ΚΑΣΤΑΝΙΑΣ ΕΥΘΥΜΙΟΥ
             </h1>
             <motion.h2
-              className="text-3xl my-4 text-white"
+              className="md:text-3xl text-xl my-4 text-white"
               initial={{ opacity: 0 }}
               animate={{ opacity: 100 }}
               transition={{ ease: "easeIn", duration: 8 }}
             >
-              Επεξεργασία ξύλου καστανιάς, αποστολή σε όλη την Ελλάδα.
+              Επεξεργασία ξύλου καστανιάς Αγίου Όρους και Βόρειας Χαλκιδικής.
             </motion.h2>
+            <motion.h3
+              className="md:text-3xl text-xl my-4 text-white"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 100 }}
+              transition={{ ease: "easeIn", duration: 8, delay: 0.5 }}
+            >
+              Αποστολή σε Θεσσαλονίκη, Αττική και υπόλοιπη Ελλάδα.
+            </motion.h3>
             <Link href="/epikoinwnia">
               <button className="bg-white text-lg shadow-xl mt-4 text-black p-4 font-black hover:bg-gray-800 hover:text-white transition duration-200">
                 ΕΠΙΚΟΙΝΩΝΗΣΤΕ ΜΑΖΙ ΜΑΣ
+              </button>
+            </Link>
+            <Link href="/proionta">
+              <button className="text-yellow-100 block focus:outline-none cursor-pointer hover:text-yellow-300 transition duration-200 underline mt-10">
+                ΔΕΙΤΕ ΤΑ ΠΡΟΙΟΝΤΑ ΜΑΣ
               </button>
             </Link>
           </div>
@@ -69,7 +90,7 @@ export default function Home() {
               alt="outside of work station"
               layout="fill"
               objectFit="cover"
-              alt="Image of the main work station"
+              alt="Ξυλεία Καστανιάς- Εργαστήριο"
             />
           </div>
           <FadeInWhenVisible styles="md:w-1/2 p-10">
@@ -91,16 +112,16 @@ export default function Home() {
               <span className="text-2xl 2xl:text-5xl text-center font-bold">
                 Η ΙΣΤΟΡΙΑ ΜΑΣ
               </span>
-              <h3 className="text-lg 2xl:text-3xl text-center mt-10">
+              <p className="text-lg 2xl:text-3xl text-center mt-10">
                 Η επιχείρηση μας ιδρύθηκε το 1996 και μέχρι σήμερα επεξεργάζεται
                 την ξυλεία καστανιάς.
-              </h3>
+              </p>
               <p className="text-lg 2xl:text-3xl text-center mt-5">
                 Επεξεργαζόμαστε ξύλα που προέρχονται από το Άγιο Όρος και την
                 Βόρεια Χαλκιδική.
               </p>
               <p className="text-lg 2xl:text-3xl text-center mt-5">
-                Διαθέτουμε Πλάκες καστανιάς, Καστανιά σκεπής, κολόνες,
+                Διαθέτουμε Πλάκες καστανιάς, Καστανιά σκεπής, κολώνες,
                 φουρούσια, πασσάλους στήριξης, σανίδες ραμποτέ, καδρόνια,
                 πέργκολες, μοναστηριακά τραπέζια και πατώματα.
               </p>
