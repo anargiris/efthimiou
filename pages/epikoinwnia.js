@@ -149,12 +149,14 @@ const epikoinwnia = () => {
         </p>
       </section>
       <section className="p-5">
+        <h6 className="text-xl font-bold mb-2">Χρήσιμα links:</h6>
         <p>
-          Για οικοδομικές κατασκευές κοιτάξτε{" "}
           <Link href="https://dimitrakoudas.gr">
             <a rel="noreferrer">
               {" "}
-              <span className="font-bold">εδώ</span>{" "}
+              <span className="font-bold cursor-pointer text-gray-800">
+                Οικοδομικές κατασκευές.
+              </span>{" "}
             </a>
           </Link>
           .
