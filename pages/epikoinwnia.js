@@ -159,7 +159,6 @@ const epikoinwnia = () => {
               </span>{" "}
             </a>
           </Link>
-          .
         </p>
       </section>
       <Footer />
