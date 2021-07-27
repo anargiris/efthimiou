@@ -111,9 +111,9 @@ export default function Home() {
                   transform="translate(100 100)"
                 />
               </svg>
-              <span className="text-2xl 2xl:text-5xl text-center font-bold">
+              <h3 className="text-2xl 2xl:text-5xl text-center font-bold">
                 Η ΙΣΤΟΡΙΑ ΜΑΣ
-              </span>
+              </h3>
               <p className="text-lg 2xl:text-3xl text-center mt-10">
                 Η επιχείρηση μας ιδρύθηκε το 1995 και μέχρι σήμερα επεξεργάζεται
                 την ξυλεία καστανιάς.
@@ -132,9 +132,9 @@ export default function Home() {
         </section>
 
         <section className="pt-5 pb-10 border border-gray-300 shadow-md max-w-6xl mx-auto rounded-md mt-4 relative">
-          <h4 className="text-3xl text-center font-bold font-neohel text-gray-900">
+          <h3 className="text-3xl text-center font-bold font-neohel text-gray-900">
             Τι είναι το ξύλο καστανιάς;
-          </h4>
+          </h3>
           <p className="text-center px-10 md:px-20 mt-2 text-xl text-gray-800">
             Η καστανιά είναι ξύλο μεγάλης αντοχής και πανάρχαιο, καθώς υπάρχουν
             ευρήματά της από την εποχή του Χαλκού. Οι καστανιές είναι μεγάλα
@@ -230,9 +230,9 @@ export default function Home() {
       <section className="xl:min-h-full min-h-screen relative pb-2">
         <Image src="/bgs/section-bg.jpg" layout="fill" alt="ξύλο background" />
         <div className="relative z-10 py-4">
-          <h4 className="text-5xl font-bold text-gray-900 font-neohel text-center">
+          <h3 className="text-5xl font-bold text-gray-900 font-neohel text-center">
             Ξυλεία καστανιάς απο την Χαλκιδική.
-          </h4>
+          </h3>
           <OpacityFade>
             <p className="text-center font-neohel font-bold text-gray-800 mt-10 text-2xl">
               Εδώ και δεκαετίες η οικογενειακή επιχείρησή μας επεξεργαζεται ξύλα
