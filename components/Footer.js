@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="flex gap-20">
         <div className="p-5">
-          <p className="text-lg font-bold mb-2">Ξυλέια Ευθυμίου</p>
+          <p className="text-lg font-bold mb-2">Ξυλέια Καστανιάς Ευθυμίου</p>
           <div className="flex mb-1">
             <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
               <path
