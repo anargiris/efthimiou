@@ -228,16 +228,21 @@ export default function Home() {
         </section>
       </main>
       <section className="xl:min-h-full min-h-screen relative pb-2">
-        <Image src="/bgs/section-bg.jpg" layout="fill" alt="ξύλο background" />
+        <Image
+          src="/bgs/section-bg.jpg"
+          layout="fill"
+          alt="ξύλο καστανιάς background"
+          priority={true}
+        />
         <div className="relative z-10 py-4">
-          <h3 className="text-5xl font-bold text-gray-900 font-neohel text-center">
+          <h4 className="text-5xl font-bold text-gray-900 font-neohel text-center">
             Ξυλεία καστανιάς απο την Χαλκιδική.
-          </h3>
+          </h4>
           <OpacityFade>
-            <p className="text-center font-neohel font-bold text-gray-800 mt-10 text-2xl">
+            <h5 className="text-center font-neohel font-bold text-gray-800 mt-10 text-2xl">
               Εδώ και δεκαετίες η οικογενειακή επιχείρησή μας επεξεργαζεται ξύλα
               καστανιάς απο το γειτονικό Άγιο Όρος.
-            </p>
+            </h5>
           </OpacityFade>
         </div>
         <div className="bg-gray-900 mt-10 text-yellow-200 bg-opacity-90 text-center p-4 relative z-10">
