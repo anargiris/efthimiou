@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ξυλεία Καστανιάς Ευθυμίου</title>
+        <title>Ξυλεία Καστανιάς | Ευθυμίου</title>
         <link rel="canonical" href="https://ksiliaefthimiou.gr/" />
 
         <meta property="og:type" content="website" />
