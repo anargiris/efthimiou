@@ -128,9 +128,7 @@ const Footer = () => {
         <p className="text-xs">
           Developed by{" "}
           <Link href="https://stylidis.io">
-            <span className="cursor-pointer hover:text-yellow-500 transition duration-200">
-              <a>Anargyros Stylidis</a>
-            </span>
+            <a>Anargyros Stylidis</a>
           </Link>
         </p>
       </div>
