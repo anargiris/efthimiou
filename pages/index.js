@@ -91,7 +91,6 @@ export default function Home() {
               src="/bgs/outside2.jpg"
               alt="outside of work station"
               layout="fill"
-              objectFit="cover"
               alt="Ξυλεία Καστανιάς- Εργαστήριο"
             />
           </div>
