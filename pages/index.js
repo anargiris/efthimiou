@@ -84,11 +84,11 @@ export default function Home() {
       <main className="relative">
         <section
           className="min-h-screen flex md:flex-row flex-col-reverse font-neohel"
-          style={{ backgroundColor: "#23CE6B" }}
+          style={{ backgroundColor: "#323232" }}
         >
           <div className="relative md:w-1/2 md:h-auto h-screen bg-cover">
             <Image
-              src="/bgs/outside.jpg"
+              src="/bgs/outside2.jpg"
               alt="outside of work station"
               layout="fill"
               objectFit="cover"
