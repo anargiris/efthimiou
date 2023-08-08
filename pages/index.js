@@ -89,8 +89,7 @@ export default function Home() {
           <div className="relative md:w-1/2 md:h-auto h-screen bg-cover">
             <Image
               src="/bgs/outside2.jpg"
-              alt="outside of work station"
-              layout="fill"
+              fill
               alt="Ξυλεία Καστανιάς- Εργαστήριο"
             />
           </div>
@@ -229,7 +228,7 @@ export default function Home() {
       <section className="xl:min-h-full min-h-screen relative pb-2">
         <Image
           src="/bgs/section-bg.jpg"
-          layout="fill"
+          fill
           alt="ξύλο καστανιάς background"
           priority={true}
         />

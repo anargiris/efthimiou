@@ -79,47 +79,43 @@ const Footer = () => {
           <p className="font-bold mb-2">Social Media:</p>
           <div className="flex gap-1">
             <Link href="https://www.facebook.com/%CE%9E%CF%85%CE%BB%CE%B5%CE%B9%CE%B1-%CE%9A%CE%B1%CF%83%CF%84%CE%B1%CE%BD%CE%B9%CE%B1%CF%82-726980901021504">
-              <a className="cursor-pointer" target="_blank" rel="noreferrer">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="icon icon-tabler icon-tabler-brand-facebook"
-                  width="25"
-                  height="25"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1"
-                  stroke="#fff"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <title>Facebook link</title>
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg>
-              </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="icon icon-tabler icon-tabler-brand-facebook"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+                strokeWidth="1"
+                stroke="#fff"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <title>Facebook link</title>
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+              </svg>
             </Link>
             <Link href="https://www.instagram.com/ksiliaefthimiou/">
-              <a className="cursor-pointer" target="_blank" rel="noreferrer">
-                <div className="relative w-5 h-5">
-                  <Image
-                    src="/icons/instagram.svg"
-                    layout="fill"
-                    alt="Instagram link picture."
-                    className="absolute"
-                  />
-                </div>
-              </a>
+              <div className="relative">
+                <Image
+                  src="/icons/instagram.svg"
+                  alt="Instagram link picture."
+                  width={20}
+                  height={20}
+                />
+              </div>
             </Link>
           </div>
         </div>
         <div className="p-5">
-          <Link href="/proionta">
-            <a className="font-bold">ΠΡΟΙΟΝΤΑ</a>
+          <Link className="font-bold" href="/proionta">
+            ΠΡΟΙΟΝΤΑ
           </Link>
         </div>
         <div className="p-5">
-          <Link href="/epikoinwnia">
-            <a className="font-bold">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+          <Link className="font-bold" href="/epikoinwnia">
+            ΕΠΙΚΟΙΝΩΝΙΑ
           </Link>
         </div>
       </div>
@@ -127,9 +123,7 @@ const Footer = () => {
         <p> &copy; Copyright 2021, Ευθυμίου</p>
         <div className="text-xs">
           Developed by{" "}
-          <Link href="https://stylidis.io">
-            <a>Anargyros Stylidis</a>
-          </Link>
+          <Link href="https://stylidis.io">Anargyros Stylidis</Link>
         </div>
       </div>
     </footer>

@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -6,8 +5,8 @@ const Navbar = () => {
   return (
     <nav className="z-10 w-full border-b border-gray-800 font-neohel bg-black text-white">
       <div className="max-w-5xl lg:max-w-full mx-auto p-4 flex md:flex-row flex-col justify-between">
-        <Link href="/">
-          <a className="text-xl">ΕΥΘΥΜΙΟΥ - ΞΥΛΕΙΑ ΚΑΣΤΑΝΙΑΣ</a>
+        <Link className="text-xl" href="/">
+          ΕΥΘΥΜΙΟΥ - ΞΥΛΕΙΑ ΚΑΣΤΑΝΙΑΣ
         </Link>
 
         <div>
