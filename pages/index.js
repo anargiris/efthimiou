@@ -88,7 +88,7 @@ export default function Home() {
         >
           <div className="relative md:w-1/2 md:h-auto h-screen bg-cover">
             <Image
-              src="/bgs/outside2.jpg"
+              src="/bgs/bg-cover.jpg"
               fill
               alt="Ξυλεία Καστανιάς- Εργαστήριο"
             />

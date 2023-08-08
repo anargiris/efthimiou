@@ -62,14 +62,14 @@ const proionta = () => {
         className="min-h-screen font-neohel py-2"
         style={{ backgroundColor: "#F6F8FF" }}
       >
-        <h3 className="text-center underline text-2xl font-bold py-2">
+        <h3 className="text-center underline text-4xl font-bold py-2">
           ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ
         </h3>
         <p className="text-center font-mono">
           Οι κολώνες καστανιάς χρησιμοποιούνται κυρίως για πέργκολες. Οι
           διαστάσεις τους ξεκινάνε από 8x8 και φτάνουν έως 20x20.
         </p>
-        <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
+        <div className="flex md:flex-row flex-col md:gap-12 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
           <div>
             <Image
               src="/pics/5.jpg"
@@ -90,13 +90,47 @@ const proionta = () => {
             width={400}
             alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.3"
           />
+          <Image
+            src="/pics/kolones3.jpg"
+            height={400}
+            width={400}
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.4"
+          />
+          <Image
+            src="/pics/kolones4.jpg"
+            height={400}
+            width={400}
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.5"
+          />
+          <Image
+            src="/pics/kolones5.jpg"
+            height={400}
+            width={400}
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.6"
+          />
+          <Image
+            src="/pics/kolones6.jpg"
+            height={400}
+            width={400}
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.7"
+          />
+
+          <Image
+            src="/pics/kolones8.jpg"
+            height={400}
+            width={400}
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.9"
+          />
+          <Image
+            src="/pics/kolones9.jpg"
+            height={400}
+            width={400}
+            alt="Photo of Product `ΚΟΛΩΝΕΣ ΚΑΣΤΑΝΙΑΣ` no.10"
+          />
         </div>
       </section>
-      <section
-        className="min-h-screen font-neohel py-2"
-        style={{ backgroundColor: "#50514F" }}
-      >
-        <h3 className="text-center text-2xl underline font-bold py-2">
+      <section className="min-h-screen font-neohel py-2">
+        <h3 className="text-center text-4xl underline font-bold py-2">
           ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ
         </h3>
         <p className="text-center font-mono">
@@ -123,13 +157,25 @@ const proionta = () => {
             width={400}
             alt="Photo of product `ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ` no.3"
           />
+          <Image
+            src="/pics/plaka1.webp"
+            height={400}
+            width={400}
+            alt="Photo of product `ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ` no.4"
+          />
+          <Image
+            src="/pics/plaka2.webp"
+            height={400}
+            width={400}
+            alt="Photo of product `ΠΛΑΚΑ ΚΑΣΤΑΝΙΑΣ` no.5"
+          />
         </div>
       </section>
       <section
         className="min-h-screen font-neohel py-2"
         style={{ backgroundColor: "#F6F8FF" }}
       >
-        <h3 className="text-center text-2xl underline font-bold py-2">
+        <h3 className="text-center text-4xl underline font-bold py-2">
           ΤΑΒΛΑ (ΣΑΝΙΔΙΑ) ΚΑΣΤΑΝΙΑΣ
         </h3>
         <p className="text-center font-mono">
@@ -154,6 +200,81 @@ const proionta = () => {
             height={400}
             width={400}
             alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.3"
+          />
+          <Image
+            src="/pics/sanidia1.webp"
+            height={400}
+            width={400}
+            alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.4"
+          />
+          <Image
+            src="/pics/sanidia2.webp"
+            height={400}
+            width={400}
+            alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.5"
+          />
+          <Image
+            src="/pics/sanidia3.webp"
+            height={400}
+            width={400}
+            alt="photo of product `ΤΑΒΛΑ ΚΑΣΤΑΝΙΑΣ` no.6"
+          />
+        </div>
+      </section>{" "}
+      <section
+        className="min-h-screen font-neohel py-2 mb-10"
+        style={{ backgroundColor: "#F6F8FF" }}
+      >
+        <h3 className="text-center text-4xl underline font-bold py-2">
+          ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ
+        </h3>
+        <p className="text-center font-mono">
+          Η στρογγυλή ξυλεία είναι ξύλινα κομμάτια κομμένα σε στρογγυλή μορφή,
+          χρησιμοποιούμενα συχνά σε κατασκευές και διακοσμητικά.
+        </p>
+        <div className="flex md:flex-row flex-col md:gap-20 md:justify-center gap-5 flex-wrap mt-8 md:ml-3">
+          <Image
+            src="/pics/round-wood/1.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.1"
+          />
+          <Image
+            src="/pics/round-wood/2.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.2"
+          />
+          <Image
+            src="/pics/round-wood/3.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.3"
+          />
+
+          <Image
+            src="/pics/round-wood/4.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.4"
+          />
+          <Image
+            src="/pics/round-wood/5.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.5"
+          />
+          <Image
+            src="/pics/round-wood/6.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.6"
+          />
+          <Image
+            src="/pics/round-wood/7.jpg"
+            height={400}
+            width={400}
+            alt="photo of product `ΣΤΡΟΓΓΥΛΗ ΞΥΛΕΙΑ` no.7"
           />
         </div>
       </section>
