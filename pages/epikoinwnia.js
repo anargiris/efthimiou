@@ -140,7 +140,7 @@ const epikoinwnia = () => {
       </div>
       <section className="bg-gray-900 text-gray-100 p-4">
         <h2 className="text-center text-2xl mb-4">
-          Ξυλεία καστανιάς Ευθυμίου - Ιερισσός Χαλκιδικής
+          Ξυλεία καστανιάς Ευθυμίου - Ιερισσός Χαλκιδικής.
         </h2>
         <h3 className="text-center px-10">
           Ξύλα καστανιάς Αγίου Όρους και Βόρειας Χαλκιδικής.
